@@ -111,6 +111,7 @@ header {
 .header-container {
   display: flex;
   align-items: center;
+  gap: 30px;
 }
 
 /* logo */
@@ -177,12 +178,15 @@ header {
 .cont-list {
   display: flex;
   margin-left: auto;
+  gap: 50px;
 }
 
 .cont-link {
+  display: flex;
   font-weight: 500;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
+  align-items: center;
   color: var(--primary-tekst-color);
 }
 
@@ -403,8 +407,6 @@ header {
 .clients-list-item {
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8;
-  border-radius: 4px;
 }
 
 .clients-link {
