@@ -340,6 +340,10 @@ header {
   align-items: center;
   justify-content: center;
   color: #AFB1B8;
+  
+}
+
+.team-social-icon {
   fill: currentColor;
 }
 
@@ -415,10 +419,13 @@ header {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   color: #afb1b8;
-  fill: currentColor;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.clients-icon {
+  fill: currentColor;
 }
 
 .clients-link:hover,
